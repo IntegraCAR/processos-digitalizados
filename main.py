@@ -20,13 +20,11 @@ st.markdown("""
         font-weight: 600;
     }
 
-    /* Selectbox - borda quando ativo/focado */
     [data-baseweb="select"] > div:focus-within {
         border-color: #2373B7 !important;
         box-shadow: 0 0 0 1px #2373B7 !important;
     }
 
-    /* Botões */
     [data-testid="baseButton-secondary"] {
         background-color: #2373B7;
         color: white;
@@ -40,14 +38,12 @@ st.markdown("""
         border: none;
     }
 
-    /* Botão quando clicado/ativo */
     [data-testid="baseButton-secondary"]:active {
         border: 2px solid #2373B7 !important;
         background-color: #1a5a8f;
         transform: scale(0.98);
     }
 
-    /* Download button */
     [data-testid="baseButton-primary"] {
         background-color: #EB9CB4;
         color: white;
